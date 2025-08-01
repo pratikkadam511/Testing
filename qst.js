@@ -28,10 +28,14 @@
 
 let amount=prompt("enter totsl amount for aplicable discount");
 
-if (amount=>5000) {
-    console.log("Congracts you got a 20% DISCOUNT on yoor purches please pay "+"(amount-20%)");
+if (amount>=5000) {
+    console.log("Congracts you got a 20% DISCOUNT on your purchase. Please pay " + (amount - (amount * 0.20)));
     
-}else{
-    console.log("your not eligible for discont");
+}else if (amount >= 2000 && amount < 5000) {
+    console.log("You got a 10% DISCOUNT on your purchase. Please pay " + (amount - (amount * 0.10)));
     
+}else if (amount < 2000) {
+    console.log("No discount available. Please pay the full amount of " + amount);
+}else {
+    console.log("Invalid amount entered. Please enter a valid total amount.");
 }
