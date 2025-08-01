@@ -1,0 +1,37 @@
+// Scenario: Website Login Access Control
+// You are building a login form for a website. After the user enters their username and password, check if the entered username is "admin" and password is "1234".
+// If both match, show a welcome message. Otherwise, show "Invalid credentials".
+
+// let u='admin';
+// let p='1234';
+
+// let user= prompt("enter your user name");
+// let passward= prompt("enter your password");
+
+// if( (user==u)  &&  (passward==p) ){
+//     console.log("welcom to admin panel");   
+// }else{
+//     console.log(" wrong user name and password");
+    
+// }
+
+// Scenario: Smart Shopping Cart Discount System
+
+// A customer adds items to their cart on an e-commerce site. Based on the total amount:
+
+// If total is above ₹5000, apply a 20% discount.
+
+// If total is between ₹2000 and ₹5000, apply a 10% discount.
+
+// If total is less than ₹2000, no discount.
+
+
+let amount=prompt("enter totsl amount for aplicable discount");
+
+if (amount=>5000) {
+    console.log("Congracts you got a 20% DISCOUNT on yoor purches please pay "+"(amount-20%)");
+    
+}else{
+    console.log("your not eligible for discont");
+    
+}

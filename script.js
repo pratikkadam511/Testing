@@ -61,5 +61,56 @@ console.log("TRUE  || FALSE        : THEN TRUE",true||false);
 console.log("FALSE || FALSR        : THEN FALSE",false||false);
 console.log("FALSE || FALSR        : THEN FALSE",false||false);
 
+// statementrs
+// if else
 
+    // var age=prompt("Enter your age");
+    // if(age>=18){
+    //     console.log("You are eligible to vote");
+    // }else{
+    //     console.log("You are not eligible to vote");
+    // }
 
+    let marks = prompt("Enter your marks");
+   
+        if (marks >= 90) {
+        console.log("You got A+ grade");
+    }else if (marks >= 80) {
+        console.log("You got A grade");
+    }else if (marks >= 70) {
+        console.log("You got B grade");
+    }
+    else if (marks >= 60) {
+        console.log("You got C grade");
+    }else {
+        console.log("You got D grade");
+    }
+    
+// switch case
+
+var day = prompt("Enter a number between 1 to 7");
+switch (day) {
+    case '1':
+        console.log("Monday");
+        break;
+    case '2':
+        console.log("Tuesday");
+        break;
+    case '3':
+        console.log("Wednesday");
+        break;
+    case '4':
+        console.log("Thursday");
+        break;
+    case '5':
+        console.log("Friday");
+        break;
+    case '6':
+        console.log("Saturday");
+        break;
+    case '7':
+        console.log("Sunday");
+        break;
+    default:
+        console.log("Invalid input! Please enter a number between 1 and 7.");
+}
