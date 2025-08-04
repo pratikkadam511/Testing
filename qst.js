@@ -39,3 +39,20 @@ if (amount>=5000) {
 }else {
     console.log("Invalid amount entered. Please enter a valid total amount.");
 }
+
+
+// Scenario: Dynamic Weather-Based Clothing Suggestions
+
+// You are creating a smart clothing app. Based on real-time input values:
+
+// If temperature < 10°C and it's raining: suggest “Wear a heavy jacket and carry an umbrella”
+
+// If temperature < 10°C and not raining: suggest “Wear a heavy jacket”
+
+// If temperature between 10°C–20°C and it's raining: suggest “Wear a sweater and carry an umbrella”
+
+// If temperature > 20°C and it’s sunny: suggest “Wear light clothes and sunglasses”
+
+// For all other conditions, suggest “Wear comfortable clothes”
+
+
