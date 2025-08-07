@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 24px;
+            text-align: center;
+        }
+        div {
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        input[type="number"] {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-bottom: 10px;
+
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+
+    </style>
+</head>
+<body>
+<h1>calculator</h1>
+<div>
+
+<label for="first_num">First_number  </label>
+<input type="number" name="first_num" id="first_NUM" placeholder="enter any number"> <br>
+
+<label for="second_num">Second_number</label>
+<input type="number" name="second_num" id="Second_NUM" placeholder="enter any number"> <br>
+
+<button type="button" onclick="addition()">  addtion</button>
+<button type="button" onclick="substaction()">  substaction</button>
+<button type="button" onclick="multiplication()">  multiplication</button>
+<button type="button" onclick="division()">  division</button>
+
+</div>
+
+
+
+    <script src="task2.js"></script>
+</body>
+</html>

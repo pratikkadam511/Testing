@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#">
+
+        <label for="username">username</label>
+        <input type="text" name="username" id="uname" required><br>
+        <label for="password">password</label>
+        <input type="password" name="" id="pass" required>
+       <label for="cources">Choose course:</label>
+         <select id="cources" name="course">
+             <option value="">none  </option>
+             <option value="fullsatck dev">fullsatck dev</option>
+             <option value="mern stack">mern stack</option>
+             <option value="mean stack">mean stak</option>
+             <option value="data engineer">data engineer</option>
+        </select>
+        <button type="submit" onclick="saveValues()">submit</button>
+
+    </form>
+
+    <script src="task.js"></script>
+</body>
+</html>
